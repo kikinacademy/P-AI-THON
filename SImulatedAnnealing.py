@@ -161,8 +161,7 @@ def print_simulated_annealing_result(result, initial_solution):
 
 
 def main():
-    origin = input('Enter the origin city: ')
-    initial_solution = generate_initial_solution(G, origin)
+    initial_solution = generate_initial_solution(G, 'Sibiu')
     initial_temperature = 100
     stop_temperature = 0
     number_of_iterations = 5
